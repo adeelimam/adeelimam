@@ -1,0 +1,40 @@
+<svg width="1200" height="350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="50%" style="stop-color:#1E293B"/>
+      <stop offset="100%" style="stop-color:#0F172A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3B82F6"/>
+      <stop offset="50%" style="stop-color:#8B5CF6"/>
+      <stop offset="100%" style="stop-color:#0891B2"/>
+    </linearGradient>
+    <linearGradient id="tag" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3B82F6" stop-opacity="0.15"/>
+      <stop offset="100%" style="stop-color:#8B5CF6" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="350" fill="url(#bg)" rx="16"/>
+  <circle cx="120" cy="80" r="180" fill="#3B82F6" opacity="0.05"/>
+  <circle cx="1080" cy="280" r="200" fill="#8B5CF6" opacity="0.04"/>
+  <text x="80" y="320" font-family="monospace" font-size="120" fill="#3B82F6" opacity="0.04">{ }</text>
+  <text x="1000" y="120" font-family="monospace" font-size="100" fill="#8B5CF6" opacity="0.04">&#60;/&#62;</text>
+  <text x="600" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-weight="900" font-size="56" fill="#FFFFFF" letter-spacing="2">Adeel Imam</text>
+  <rect x="380" y="135" width="440" height="4" rx="2" fill="url(#accent)"/>
+  <text x="600" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-weight="500" font-size="22" fill="#94A3B8">Full-Stack Developer  |  SaaS Architect  |  AI Engineer</text>
+  <text x="600" y="212" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#64748B">Building production-grade platforms that solve real business problems</text>
+  <rect x="220" y="248" width="110" height="36" rx="18" fill="url(#tag)" stroke="#3B82F6" stroke-width="1"/>
+  <text x="275" y="271" text-anchor="middle" font-family="Arial" font-size="13" font-weight="600" fill="#93C5FD">Next.js</text>
+  <rect x="350" y="248" width="120" height="36" rx="18" fill="url(#tag)" stroke="#8B5CF6" stroke-width="1"/>
+  <text x="410" y="271" text-anchor="middle" font-family="Arial" font-size="13" font-weight="600" fill="#C4B5FD">TypeScript</text>
+  <rect x="490" y="248" width="110" height="36" rx="18" fill="url(#tag)" stroke="#0891B2" stroke-width="1"/>
+  <text x="545" y="271" text-anchor="middle" font-family="Arial" font-size="13" font-weight="600" fill="#67E8F9">React</text>
+  <rect x="620" y="248" width="120" height="36" rx="18" fill="url(#tag)" stroke="#10B981" stroke-width="1"/>
+  <text x="680" y="271" text-anchor="middle" font-family="Arial" font-size="13" font-weight="600" fill="#6EE7B7">Node.js</text>
+  <rect x="760" y="248" width="120" height="36" rx="18" fill="url(#tag)" stroke="#F59E0B" stroke-width="1"/>
+  <text x="820" y="271" text-anchor="middle" font-family="Arial" font-size="13" font-weight="600" fill="#FCD34D">AI / LLM</text>
+  <rect x="900" y="248" width="110" height="36" rx="18" fill="url(#tag)" stroke="#EC4899" stroke-width="1"/>
+  <text x="955" y="271" text-anchor="middle" font-family="Arial" font-size="13" font-weight="600" fill="#F9A8D4">SaaS</text>
+  <rect x="0" y="346" width="1200" height="4" rx="2" fill="url(#accent)"/>
+</svg>
